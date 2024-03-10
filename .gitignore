@@ -1,0 +1,54 @@
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+
+# npm
+node_modules
+package-lock.json
+logs
+*.log
+*.gz
+src-backup
+
+
+# Coveralls
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+#IntelliJ
+.idea
+
+# Environment varibales
+.env*
+!.env*.example
+
+# yarn error logs
+yarn-error.log
+
+#file upload directory
+/uploads
+/public
+/temp
+
+
+#dynamic Controller
+/src/controllers/dynamic/*
+
+#dynamic Model
+/src/models/dynamic/*
+
+#dynamic Routes
+/src/routes/v1/dynamic/*

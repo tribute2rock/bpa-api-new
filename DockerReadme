@@ -1,0 +1,9 @@
+# Use Following CMD Line in Project Folder 
+
+# Using Docker-Compose
+Step 1:
+~ docker-compose up -d
+
+# Using Docker File
+Step 1:
+~ docker build -t shubham/bpa:v1 .
